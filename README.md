@@ -21,7 +21,7 @@
 </p>
 
 <h2>Uso</h2>
-<h3>Menu Cliente</h3>
+<h2>Menu Cliente</h2>
 <ul>
     <li><strong>Cadastrar:</strong> Permite cadastrar um novo cliente.</li>
     <li><strong>Avaliar restaurante:</strong> Permite que um cliente avalie um restaurante.</li>
