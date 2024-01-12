@@ -1,6 +1,6 @@
 # EatEasy-Trabalho-Avaliativo-POO
 
-Sistema de Reservas em Restaurantes - README
+#Sistema de Reservas em Restaurantes - README
 Descrição
 Este é um sistema de reservas em restaurantes, desenvolvido em TypeScript, que permite que clientes façam reservas, avaliem restaurantes e gerentes controlem seus estabelecimentos. O sistema possui as seguintes funcionalidades:
 
