@@ -1,58 +1,61 @@
-# EatEasy-Trabalho-Avaliativo-POO
+<h1>EatEasy - Sistema de Reservas em Restaurantes</h1>
 
-# Sistema de Reservas em Restaurantes
+<h2>Descrição</h2>
+<p>
+    Este é um sistema de reservas em restaurantes, desenvolvido em TypeScript, que permite que clientes façam reservas,
+    avaliem restaurantes e gerentes controlem seus estabelecimentos. O sistema possui as seguintes funcionalidades:
+</p>
 
-**Descrição:**
-Este é um sistema de reservas em restaurantes, desenvolvido em TypeScript, que permite que clientes façam reservas, avaliem restaurantes e gerentes controlem seus estabelecimentos. O sistema possui as seguintes funcionalidades:
+<h2>Requisitos</h2>
+<p>
+    - Node.js instalado<br>
+    - Biblioteca readline-sync instalada (instale com npm install readline-sync)
+</p>
 
-Cadastro de clientes, gerentes, restaurantes e mesas.
-Avaliação de restaurantes por clientes.
-Reserva de mesas em restaurantes por clientes.
-Alteração e cancelamento de reservas por clientes.
-Gerenciamento de restaurantes por gerentes, incluindo cadastro de mesas.
-Listagem de clientes, gerentes, restaurantes, avaliações e reservas.
-Filtros para buscar restaurantes por localização, cozinha, avaliação e disponibilidade.
-Cálculo da média de avaliações de um restaurante.
-Filtragem de avaliações por restaurante.
-Requisitos
-Node.js instalado
-Biblioteca readline-sync instalada (instale com npm install readline-sync)
-Execução
-Baixe os arquivos do projeto.
-Abra o terminal e navegue até o diretório do projeto.
-Execute npm install para instalar as dependências.
-Execute node index.js para iniciar o programa.
-Uso
-O programa possui um menu principal com opções para clientes, gerentes e para o sistema em geral. Cada opção do menu leva a submenus específicos.
+<h2>Execução</h2>
+<p>
+    1. Baixe os arquivos do projeto.<br>
+    2. Abra o terminal e navegue até o diretório do projeto.<br>
+    3. Execute npm install para instalar as dependências.<br>
+    4. Execute node index.js para iniciar o programa.
+</p>
 
-**Menu Cliente**
-Cadastrar: Permite cadastrar um novo cliente.
-Avaliar restaurante: Permite que um cliente avalie um restaurante.
-Fazer reserva: Permite que um cliente faça uma reserva.
-Alterar reserva: Permite que um cliente altere uma reserva existente.
-Cancelar reserva: Permite que um cliente cancele uma reserva existente.
-Listar reservas: Exibe as reservas feitas por um cliente.
-Listar restaurantes: Lista todos os restaurantes disponíveis.
-Listar restaurantes por localização: Lista restaurantes com base em uma localização.
-Listar restaurantes por cozinha: Lista restaurantes com base em uma cozinha específica.
-Listar restaurantes por avaliação: Lista restaurantes com base em uma avaliação específica.
-Listar restaurantes por disponibilidade: Lista restaurantes disponíveis em uma determinada data e hora.
-Voltar: Retorna ao menu principal.
-**Menu Gerente**
-Cadastrar Gerente: Permite cadastrar um novo gerente.
-Cadastrar restaurante: Permite que um gerente cadastre um novo restaurante.
-Cadastrar mesa: Permite que um gerente cadastre uma nova mesa em seu restaurante.
-Listar mesas: Lista as mesas de um restaurante específico.
-Listar avaliações: Lista as avaliações recebidas por um restaurante.
-Voltar: Retorna ao menu principal.
-**Menu Sistema**
-Listar Gerentes: Lista todos os gerentes cadastrados no sistema.
-Listar Clientes: Lista todos os clientes cadastrados no sistema.
-Listar Restaurantes: Lista todos os restaurantes cadastrados no sistema.
-Listar avaliações: Lista todas as avaliações feitas por clientes.
-Filtrar avaliações por restaurante: Lista avaliações específicas de um restaurante.
-Calcular média de avaliações: Calcula a média de avaliações de um restaurante.
-Voltar: Retorna ao menu principal.
-**Observações**
-O sistema utiliza a biblioteca readline-sync para interação com o usuário.
-Para encerrar o programa, basta selecionar a opção "0" no menu principal.
+<h2>Uso</h2>
+<h3>Menu Cliente</h3>
+<ul>
+    <li><strong>Cadastrar:</strong> Permite cadastrar um novo cliente.</li>
+    <li><strong>Avaliar restaurante:</strong> Permite que um cliente avalie um restaurante.</li>
+    <li><strong>Fazer reserva:</strong> Permite que um cliente faça uma reserva.</li>
+    <li><strong>Alterar reserva:</strong> Permite que um cliente altere uma reserva existente.</li>
+    <li><strong>Cancelar reserva:</strong> Permite que um cliente cancele uma reserva existente.</li>
+    <li><strong>Listar reservas:</strong> Exibe as reservas feitas por um cliente.</li>
+    <li><strong>Listar restaurantes:</strong> Lista todos os restaurantes disponíveis.</li>
+    <li><strong>Listar restaurantes por localização:</strong> Lista restaurantes com base em uma localização.</li>
+    <li><strong>Listar restaurantes por cozinha:</strong> Lista restaurantes com base em uma cozinha específica.</li>
+    <li><strong>Listar restaurantes por avaliação:</strong> Lista restaurantes com base em uma avaliação específica.</li>
+    <li><strong>Listar restaurantes por disponibilidade:</strong> Lista restaurantes disponíveis em uma determinada data e hora.</li>
+    <li><strong>Voltar:</strong> Retorna ao menu principal.</li>
+</ul>
+
+<h2>Menu Gerente</h2>
+<ul>
+    <li><strong>Cadastrar Gerente:</strong> Permite cadastrar um novo gerente.</li>
+    <li><strong>Cadastrar restaurante:</strong> Permite que um gerente cadastre um novo restaurante.</li>
+    <li><strong>Cadastrar mesa:</strong> Permite que um gerente cadastre uma nova mesa em seu restaurante.</li>
+    <li><strong>Listar mesas:</strong> Lista as mesas de um restaurante específico.</li>
+    <li><strong>Listar avaliações:</strong> Lista as avaliações recebidas por um restaurante.</li>
+    <li><strong>Voltar:</strong> Retorna ao menu principal.</li>
+</ul>
+
+<h2>Menu Sistema</h2>
+<ul>
+    <li><strong>Listar Gerentes:</strong> Lista todos os gerentes cadastrados no sistema.</li>
+    <li><strong>Listar Clientes:</strong> Lista todos os clientes cadastrados no sistema.</li>
+    <li><strong>Listar Restaurantes:</strong> Lista todos os restaurantes cadastrados no sistema.</li>
+    <li><strong>Listar avaliações:</strong> Lista todas as avaliações feitas por clientes.</li>
+    <li><strong>Filtrar avaliações por restaurante:</strong> Lista avaliações específicas de um restaurante.</li>
+    <li><strong>Calcular média de avaliações:</strong> Calcula a média de avaliações de um restaurante.</li>
+    <li><strong>Voltar:</strong> Retorna ao menu principal.</li>
+</ul>
+
+<p><strong>Observações:</strong> O sistema utiliza a biblioteca readline-sync para interação com o usuário. Para encerrar o programa, basta selecionar a opção "0" no menu principal.</p>
